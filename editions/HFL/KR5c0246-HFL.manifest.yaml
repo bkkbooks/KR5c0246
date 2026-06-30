@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0246/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0246/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 保生要錄
+  date: '2015-08-29 00:54:57.354923'
+  source:
+    repository: kanripo
+    path: KR5c0246
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0246_000-HFL.yaml, hash: 'sha256:cdeff7450965419d927c6f028fca883bd0ef4cb8142bebda88a99d6477a0279d'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0246_000-HFL.markers.yaml, hash: 'sha256:b1fa4c55d6c3e00db34dee854ac62f1df73f9da91f2169a899839b48cdb67104'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0246_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 2914
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:8519b9b1bef370fe3f06c24a86a346ec80851f9413e40412cb8e2f8929dd1b48
